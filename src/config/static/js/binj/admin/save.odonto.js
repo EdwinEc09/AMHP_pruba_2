@@ -31,5 +31,6 @@ function registrarme() {
     .catch((error) => {
         console.error(error)
     })
+    
 
 }
