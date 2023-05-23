@@ -1,31 +1,20 @@
 {% extends "layout.html" %}
 {% block body %}
-<header class="header">
-  <div class="container">
-    <div class="btn-menu">
-      <label for="btn-menu" style="color: black;">☰</label>
+<header id="home">
+    <div class="menu">
+        <div class="logo"></div><!--logo-->
+        <nav class="desktop-menu">
+            <ul>         
+                <li><a href="/fronted/indexsobre">sobre</a></li>
+                <li><a href="/fronted/indexcontacto">contato</a></li>
+                <li><a href="/fronted/indexcita">agendar cita</a></li>
+                <li><a href="/fronted/tablauser">ver citas</a></li>
+                <li><a href="/fronted/indexregistro">registar</a></li>
+                <li><a href="/fronted/indexlogin">logins</a></li>
+            </ul>
+        </nav>
     </div>
-    <div class="logo">
-    </div>
-    <nav class="menu">
-      <a style="color: black;" href="indexprincipal">Cerrar sesion</a>
-    </nav>
-  </div>
-</header>
-<div class="capa"></div>
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
-  <div class="cont-menu">
-    <nav>
-      <a href="indexcalendario">Calendario</a>
-      <a href="indexadmin_tabla_paciente">Pacientes</a>
-      <a href="indexadmin_tabla_medico">Medicos</a>
-      <a href="#">Reportes de citas</a>
-      <a href="#">Facturacion</a>
-    </nav>
-    <label class="logox" for="btn-menu">✖️</label>
-  </div>
-</div>
+</div><!--container-->
 <div class="contenedor_de_la_tabla">
   <div class="tabla_de_mi_cita">
     <div class="d-flex mb-3">
@@ -57,6 +46,7 @@
     </div>
   </div>
 </div>
+
 <div id="myModal_tabla_admin_1" class="modal_tabla_admin">
   <div class="modal-content">
     <label for="nombre">Nombre completo:</label>
@@ -109,4 +99,5 @@
 </div>
 <script src="{{url_for('static', filename='js/binj/admin/citas_admin.js')}}"></script>
 <script src="{{url_for('static', filename='js/binj/funcion_modal.js')}}"></script>
+</header>
 {% endblock %}

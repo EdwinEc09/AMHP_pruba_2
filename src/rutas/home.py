@@ -22,6 +22,7 @@ def indexadmin_tabla_paciente():
     return render_template('/main/admin_tabla_paciente.html', titles=titulo)
 
 
+
 @routes_home.route("/indexcontacto" )
 def indexblanqueamentos():
     titulo= "Pagina blanqueamentos"

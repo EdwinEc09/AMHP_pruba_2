@@ -1,4 +1,4 @@
-
+ 
 function registrarme() {
     const name = document.getElementById('Fullname');
     const Cedula = document.getElementById('Cedula');
