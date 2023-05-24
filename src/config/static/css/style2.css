@@ -774,6 +774,9 @@ body {
 .table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #ffffff50;
+    height: 550px;
+    border-radius: 10px;
 }
 
 .table th,
@@ -790,10 +793,25 @@ body {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+
 }
 
-.btn-primary {
+.btn-primary1 {
     background-color: #007bff;
+    margin: 1px 15px;
+ 
+}
+
+.btn-primary2 {
+    background-color: #007bff;
+    margin: 1px 15px;
+
+}
+
+.btn-primary3 {
+    background-color: #007bff;
+    margin: 1px 15px;
+
 }
 
 /* Estilos de los modales */
@@ -845,4 +863,15 @@ body {
         color: #333;
         background-color: #f8f8f8;
     }
+}
+
+.tabla_de_mi_cita {
+    margin-top: 100px;
+    max-width: 1400px;
+    margin-left: 180px
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+    margin-right: 597px;
 }

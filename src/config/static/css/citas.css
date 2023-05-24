@@ -42,7 +42,8 @@ textarea {
     margin-top: 5px;
     resize: vertical;
     background-color: #ffffff88;
-
+    margin: 1px 15px;
+    margin-left: 0px;
 }
 
 input[type="submit"] {
@@ -78,9 +79,11 @@ input[type="submit"] {
         margin-right: 10px;
     }
 }
-h1{
+
+h1 {
     color: rgb(0, 0, 0);
 }
-label{
+
+label {
     color: rgb(0, 0, 0);
 }
