@@ -808,6 +808,7 @@ label[for="btn-menu"] {
 .table-responsive_paciente {
     overflow-x: auto;
     margin-top: 5%;
+    
 }
 
 .table-responsive_medico {
