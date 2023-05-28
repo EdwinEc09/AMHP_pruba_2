@@ -767,6 +767,10 @@ body {
 }
 
 /* Estilos de la tabla de citas */
+.table-responsive_citas {
+    max-height: 400px; /* Establece la altura máxima deseada para el contenedor */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+  }
 .contenedor_de_la_tabla {
     margin-top: 20px;
 }
@@ -878,6 +882,10 @@ body {
 }
 
 /* css de tablas paciente */
+.table-responsive_paciente {
+  max-height: 400px; /* Establece la altura máxima deseada para el contenedor */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+}
 
 .contenedor_de_la_tabla {
     margin-top: 20px;
@@ -950,8 +958,10 @@ body {
   }
   
   .table-responsive_medico {
-    overflow-x: auto;
+    max-height: 400px; /* Establece la altura máxima deseada para el contenedor */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
   }
+  
   
   .modal_tabla_odontologo {
     display: none;
@@ -993,3 +1003,7 @@ body {
     width: 80%;
   }
   
+  .table-responsive_user {
+    max-height: 400px; /* Establece la altura máxima deseada para el contenedor */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+  }
